@@ -4,9 +4,6 @@ const todoSlice = createSlice({
   name: "todo",
   initialState: [],
   reducers: {
-    setTodos(state, action) {
-      return action.payload;
-    },
     addTodo(state, action) {
       state.push(action.payload);
     },
@@ -35,9 +32,7 @@ const todoSlice = createSlice({
   },
 });
 
-// localStorage.getItem("Todos",  JSON.stringify());
-
-export const { addTodo, deleteTodo, updateTodo, toggleTodo, setTodos } =
+export const { addTodo, deleteTodo, updateTodo, toggleTodo } =
   todoSlice.actions;
 
 export default todoSlice.reducer;

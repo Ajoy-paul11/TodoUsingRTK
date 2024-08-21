@@ -67,9 +67,9 @@ function ListOfTodo({ todo, index }) {
               disabled={toggle}
             >
               {" "}
-              {isTodoEditable ? "📁" : "🖍"}
+              {isTodoEditable ? "📁" : "🖋"}
             </button>
-            <button onClick={() => removeTodo(index)}>✂</button>
+            <button onClick={() => removeTodo(index)}>🗑</button>
           </div>
         </div>
       </div>
