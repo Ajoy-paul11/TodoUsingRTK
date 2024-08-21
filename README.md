@@ -27,8 +27,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone [https://github.com/Ajoy-paul11/TodoUsingRTK.git](https://github.com/Ajoy-paul11/TodoUsingRTK.git)
-   ```
+   git clone https://github.com/Ajoy-paul11/TodoUsingRTK.git
 2. Navigate to the project
     ```sh
     cd TodoUsingRTK
